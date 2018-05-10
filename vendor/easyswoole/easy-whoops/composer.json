@@ -1,0 +1,25 @@
+{
+    "name": "easyswoole/easy-whoops",
+    "description": "Whoops provider for easySwoole framework 2.x",
+    "type": "library",
+    "require": {
+        "filp/whoops": "^2.1"
+    },
+    "require-dev": {
+        "easyswoole/easyswoole": "2.x-dev",
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "evalor",
+            "email": "mipone@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\Whoops\\": "src/",
+            "App\\": "App/"
+        }
+    }
+}

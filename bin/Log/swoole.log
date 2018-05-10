@@ -1,0 +1,209 @@
+[2018-03-21 06:46:42 #4699.1]	NOTICE	Server is shutdown now.
+[2018-03-21 06:52:00 $4728.0]	NOTICE	Server is reloading now.
+[2018-03-22 07:40:11 #4727.1]	NOTICE	Server is shutdown now.
+[2018-03-22 10:31:47 *8881.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Core\Http\AbstractInterface\Controller::__construct(), 0 passed and exactly 3 expected in /vagrant/easyswoole/src/Core/Http/AbstractInterface/Controller.php:28
+Stack trace:
+#0 [internal function]: EasySwoole\Core\Http\AbstractInterface\Controller->__construct()
+#1 /vagrant/easyswoole/src/Core/Component/Di.php(54): ReflectionClass->newInstanceArgs(Array)
+#2 /vagrant/easyswoole/src/Core/Swoole
+[2018-03-22 10:31:47 $8869.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-22 10:33:02 *8904.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Core\Http\AbstractInterface\Controller::__construct(), 0 passed and exactly 3 expected in /vagrant/easyswoole/src/Core/Http/AbstractInterface/Controller.php:28
+Stack trace:
+#0 [internal function]: EasySwoole\Core\Http\AbstractInterface\Controller->__construct()
+#1 /vagrant/easyswoole/src/Core/Component/Di.php(54): ReflectionClass->newInstanceArgs(Array)
+#2 /vagrant/easyswoole/src/Core/Swoole
+[2018-03-22 10:33:02 $8892.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-22 10:35:09 *8926.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Core\Http\AbstractInterface\Controller::__construct(), 0 passed and exactly 3 expected in /vagrant/easyswoole/src/Core/Http/AbstractInterface/Controller.php:28
+Stack trace:
+#0 [internal function]: EasySwoole\Core\Http\AbstractInterface\Controller->__construct()
+#1 /vagrant/easyswoole/src/Core/Component/Di.php(54): ReflectionClass->newInstanceArgs(Array)
+#2 /vagrant/easyswoole/src/Core/Swoole
+[2018-03-22 10:35:09 $8914.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-22 10:35:36 *8948.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Core\Http\AbstractInterface\Controller::__construct(), 0 passed and exactly 3 expected in /vagrant/easyswoole/src/Core/Http/AbstractInterface/Controller.php:28
+Stack trace:
+#0 [internal function]: EasySwoole\Core\Http\AbstractInterface\Controller->__construct()
+#1 /vagrant/easyswoole/src/Core/Component/Di.php(54): ReflectionClass->newInstanceArgs(Array)
+#2 /vagrant/easyswoole/src/Core/Swoole
+[2018-03-22 10:35:36 $8936.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26855.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26858.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26859.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26860.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26861.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26862.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26863.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26864.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26865.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26866.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26867.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26868.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26869.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26870.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26871.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26872.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26873.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26874.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:42 ^26875.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:42 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26876.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26877.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26878.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26879.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26880.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26881.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26882.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26883.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26884.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26885.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26886.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26887.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26888.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26889.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 07:46:43 ^26890.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 07:46:43 $26853.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26908.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26911.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26912.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26913.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26914.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26915.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26916.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:20 ^26917.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:20 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26918.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26919.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26920.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26921.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26922.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26923.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26924.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26925.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26926.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26927.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26928.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26929.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26930.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26931.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26932.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26933.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26934.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:21 ^26935.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:21 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26936.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26937.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26938.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26939.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26940.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26941.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26942.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26943.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26944.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26945.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26946.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26947.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26948.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26949.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26950.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-03-23 08:28:22 ^26951.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: swoole_event_add(): can't use async-io in task process. in /vagrant/easyswoole/bin/EasySwooleEvent.php on line 102.
+[2018-03-23 08:28:22 $26906.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+auto reload enable
+文件和目录数量10
+监视 /vagrant/easyswoole/bin/../App
+监视 /vagrant/easyswoole/bin/../App/HttpController
+监视 /vagrant/easyswoole/bin/../App/HttpController/Router.php
+监视 /vagrant/easyswoole/bin/../App/HttpController/Test.php
+监视 /vagrant/easyswoole/bin/../App/HttpController/Test2.php
+监视 /vagrant/easyswoole/bin/../App/Process
+监视 /vagrant/easyswoole/bin/../App/Process/Inotify.php
+监视 /vagrant/easyswoole/bin/../App/Process/Test.php
+监视 /vagrant/easyswoole/bin/../App/WebSocket
+监视 /vagrant/easyswoole/bin/../App/WebSocket/Test.php
+[2018-03-23 10:37:18 #26985.1]	NOTICE	Server is shutdown now.
+[2018-03-23 11:19:05 $3211.0]	NOTICE	Server is reloading now.
+[2018-03-23 11:21:46 $3221.0]	NOTICE	Server is reloading now.
+[2018-03-23 11:24:05 $3230.0]	NOTICE	Server is reloading now.
+[2018-03-23 11:25:53 $3240.0]	NOTICE	Server is reloading now.
+[2018-03-23 11:38:59 $3249.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:09 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:10 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:10 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:18 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:20 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:20 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:20 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:20 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:57 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:57 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:36:57 $3551.0]	NOTICE	Server is reloading now.
+[2018-03-26 04:37:03 $3551.0]	NOTICE	Server is reloading now.
